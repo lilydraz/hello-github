@@ -1,0 +1,189 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+
+
+*{
+
+font-family: 'Poppins' ,sans-serif;
+scroll-behavior: smooth;
+margin: 0%;
+padding: 0%;
+
+}
+header{
+    background-color: beige;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 200px;
+    position: fixed;
+    width: 100%;
+}
+.logo{
+    text-decoration: none;
+    font-size: 1.8rem;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+.navigation a{
+    color: #3a6cf4;
+    text-decoration: none;
+    font-size: 1.1em;
+    font-weight: 500;
+    padding-left: 30px;
+}
+
+.main-btn{
+    background-color: aqua;
+    color: black;
+    padding: 1em 2em;
+    text-decoration: none;
+    border-radius: 20px;
+    margin-bottom: 40px;
+    display: inline-block;
+    letter-spacing: 1px;
+    font-size: 1.1em;
+    font-weight: 500;
+}
+
+.main-btn:hover{
+    background-color: aquamarine;
+}
+.main{
+background-image: url(images/background.png);
+
+background-attachment: fixed;
+background-size: cover;
+background-position: center;
+min-height: 100vh;
+
+}
+
+.main h2 {
+    color: #fff;
+    font-size: 1.4em;
+    font-weight: 500;
+}
+
+.main h2 span {
+    display: inline-block;
+    margin-top: 10px;
+    color: #4e9eff;
+    font-size: 3em;
+    font-weight: 600;
+}
+
+.main h3 {
+    color: #fff;
+    font-size: 2em;
+    font-weight: 700;
+    letter-spacing: 1px;
+    margin-top: 10px;
+    margin-bottom: 30px;
+}
+ 
+.card{
+    border-radius: 20px;
+    margin: 50px;
+    padding: 20px;
+        background-color: aliceblue;
+}
+
+.title{
+color:#3a6cf4;
+font-size: xx-large;
+font-weight:700;
+align-items :center;
+justify-content: center;
+display:flex;
+}
+
+.card.icon{
+color:#3a6cf4;
+font-size: 8em;
+text-align: center;
+}
+.card:hover{
+
+    transform: scale(1.1);
+    background-image: radial-gradient(yellow,blue)
+}
+.project-info{
+justify-content: center;
+text-align:center;
+}
+.card .icon {
+    color: #3a6cf4;
+    font-size: 8em;
+    text-align: center;
+}
+.content{
+    display: center;
+    justify-content: center;
+}
+.project-img img{
+    width:100%;
+}
+<section class="projects">
+<h2 class="title">Projects</h2>
+<div class="content">
+<div class="project-card">
+
+<div class="proect-img">
+<img src="images/websiteDev.jpg">
+</div>
+<div class="project-info">
+    <p>Movies website</p>
+    <strong class="project-title">
+        <span>Movies website</span>
+    
+        <a href="#">More details</a>
+      </strong>
+</div>
+</section>
+.project-card{
+
+background-color: antiquewhite;
+border-radius: 20px;
+width: 23em;
+margin: 20px;
+border: 1px solid orange;
+overflow: hidden;
+
+}
+.project-image img{
+width: 100%;
+}
+.project-card:hover{
+
+    scale: 1.1;
+ }
+.project-card:hover .project-image{
+    opacity: 0.7;
+} 
+
+.projects{
+    background-color: orangered;
+}
+
+.project-info p{
+    color: black;
+    font-weight: 600;
+    font-size: larger;
+    padding: 20px;
+}
+
+.info{
+
+    justify-content: baseline;
+    align-items: center;
+    
+}
+.info h3{
+    color: rebeccapurple;
+    align-items: center;
+}
+
+.section .card:hover{
+    background-image: radial-gradient(red,yellow) !important;
+}
